@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <div class="container">
+        <div class="left-sidebar">
+            <span id="leftside-title"><img src="./icons/monitor-dashboard.png" alt="dashboard">Dashboard</span>
+            <button class="leftside-button"><img src="./icons/home.png" alt="home">Home</button>
+            <button class="leftside-button"><img src="./icons/account.png" alt="profile">Profile</button>
+            <button class="leftside-button"><img src="./icons/message.png" alt="message">Messages</button>
+            <button class="leftside-button"><img src="./icons/clock.png" alt="history">History</button>
+            <button class="leftside-button"><img src="./icons/folder.png" alt="task">Task</button>
+            <button class="leftside-button"><img src="./icons/group.png" alt="community">Communities</button>
+            <button class="leftside-button"><img src="./icons/cog.png" alt="setting">Setting</button>
+            <button class="leftside-button"><img src="./icons/help.png" alt="support">Support</button>
+            <button class="leftside-button"><img src="./icons/security.png" alt="security">Privacy</button>
+        </div>
+        <div class="header">
+            <div class="topnav">
+                <img src="./icons/magnify.png" alt="search" id="magnify">
+                <input type="text" id="search">
+                <button id="bell"> <img src="./icons/bell.png" alt="bell"></button>
+                <button id="user"><img src="./icons/account-circle.png" alt="user"></button>
+                <p><b>Franklin Tran</b></p>
+            </div>
+            <div class="botnav">
+                <div class="botnav-left">
+                    <img src="./icons/benji.png" alt="benji" height="250px" id="benji">
+                    <p class ="botnav-p">Hi there, <br>Franklin Tran (@frank206)</p>
+                </div>
+                <div class="header-button">
+                    <button class="rightside-button">New</button>
+                    <button class="rightside-button">Upload</button>
+                    <button class="rightside-button">Share</button>
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            <h1 id="main-title">Your Projects</h1>
+            <div class="cards">
+                <h2>Admin Dashboard</h2>
+                <p>What you are looking at is the actual dashboard! This project utilized the CSS Grid syntax to build custom layouts. A great way to learn CSS grid is by building a whole entire dashboard. </p>
+                <button class="cards-icons"> <img src="./icons/star.png" alt="star"></button>
+                <button class="cards-icons"><img src="./icons/eye.png" alt="eye"></button>
+                <button class="cards-icons"><img src="./icons/pencil.png" alt="edit"></button>
+            </div>
+            <div class="cards">
+                <h2>Etch-A-Sketch</h2>
+                <p>Remember those red square toys that uses sand to build pictures? That's right, you can play it on the web by clicking this link. </p>
+                <button class="cards-icons"> <img src="./icons/star.png" alt="star"></button>
+                <button class="cards-icons"><img src="./icons/eye.png" alt="eye"></button>
+                <button class="cards-icons"><img src="./icons/pencil.png" alt="edit"></button>
+            </div>
+            <div class="cards">
+                <h2>Calculator</h2>
+                <p>Why use a built in calculator when you can use mine instead? Kidding, but I built a calculator as a way to learn HTML/CSS/JS altogether.</p>
+                <button class="cards-icons"> <img src="./icons/star.png" alt="star"></button>
+                <button class="cards-icons"><img src="./icons/eye.png" alt="eye"></button>
+                <button class="cards-icons"><img src="./icons/pencil.png" alt="edit"></button>
+            </div>
+            <div class="cards">
+                <h2>Sign Up Form</h2>
+                <p>Just a basic sign up form... Nothing to see here. Although it does look quite nice, doesn't it?</p>
+                <button class="cards-icons"> <img src="./icons/star.png" alt="star"></button>
+                <button class="cards-icons"><img src="./icons/eye.png" alt="eye"></button>
+                <button class="cards-icons"><img src="./icons/pencil.png" alt="edit"></button>
+            </div>
+            <div class="cards">
+                <h2>Rock Paper Scissors</h2>
+                <p>Simple game of rock paper scissors. I choose Paper. You choose?</p>
+                <button class="cards-icons"> <img src="./icons/star.png" alt="star"></button>
+                <button class="cards-icons"><img src="./icons/eye.png" alt="eye"></button>
+                <button class="cards-icons"><img src="./icons/pencil.png" alt="edit"></button>
+            </div>
+            <div class="cards">
+                <h2>Library</h2>
+                <p>Work in progress. Going to build a page showcasing what books you read.</p>
+                <button class="cards-icons"> <img src="./icons/star.png" alt="star"></button>
+                <button class="cards-icons"><img src="./icons/eye.png" alt="eye"></button>
+                <button class="cards-icons"><img src="./icons/pencil.png" alt="edit"></button>
+            </div>
+        </div>
+        <div class="right-side">
+            <h1 class="annouceTitle">Annoucements</h1>
+            <div class="top-right">
+                <h2>Site Maintenance</h2>
+                <p class="p1">Today, we will be having a maintenance today at 10:00 PM PST. Our apologies for the inconvience. Please stay tuned for more updates.</p>
+                <h2>Community Share Day</h2>
+                <p class="p2">Today, there will be a race to see which dog is the fastest! Will it be the Coton De Tulear as the new winner? Or last year winner, Shiba Inu?</p>
+                <h2>Updated Policy</h2>
+                <p>Please tell your dog to bark as loud as possible. Like really loud!</p>
+            </div>
+            <h1 class="trend-title">Trending</h1>
+            <div class="bot-right">
+                <div class="trending-user"><img src="./icons/happy.png" alt="shiba" height="40px">@Inu <br>World Peace Builder</div>
+                <div class="trending-user"><img src="./icons/corgi.png" alt="corgi" height="40px">@Cor <br>Super Cool Project</div>
+                <div class="trending-user"><img src="./icons/dog.png" alt="pig" height="40px">@Ig <br>Life Changing App</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
